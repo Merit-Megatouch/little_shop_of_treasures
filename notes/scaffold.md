@@ -5,9 +5,9 @@
 | GameId | G_LITTLE_SHOP_OF_TREASURES = 229 |
 | Code | /usr/local/lib/little_shop_of_treasures.so |
 | Engine family | gamedevice |
-| Assets | /usr/local/ion_only/games/little_shop_of_treasures |
-| Window size | 1024x768 — from declared HIGH_RESOLUTION |
-| Largest PNG | none |
-| Engine libraries beyond the shared SDK | libgraphics_sprite.so libinput_sprite.so libsound_sprite.so  |
+| Assets | /usr/local/ion_only/games/g_little_shop_of_treasures |
+| Window size | 800x600 — from largest PNG (declared HIGH_RESOLUTION → 1024x768) |
+| Largest PNG | 800x600 (gfx/level_data/antiques_overlay.png) |
+| Engine libraries beyond the shared SDK | libgraphics_sprite.so libinput_sprite.so libmerit_threads.so libsettings.so libsound_sprite.so  |
 | Libraries not found in the cabinet | 0 (missing-libs.txt) |
-| Unresolved symbols | 9 unresolved symbol(s) (unresolved.txt) |
+| Unresolved symbols | 0 unresolved symbol(s) (unresolved.txt) |
